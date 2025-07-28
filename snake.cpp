@@ -34,6 +34,5 @@ int snake::getLength(){
 int main(){
     snake mySnek;
     cout << "Length of snek is: " << mySnek.getLength() << "\n"; 
-
     return 0;
 }
