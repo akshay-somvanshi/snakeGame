@@ -9,7 +9,7 @@ using namespace std;
 // Define an alias for the data type
 typedef vector<pair<int,int>> vec_pair; 
 
-// Constructor - Create snake with length 2 at (0,0)
+// Default constructor - Create snake with length 2 at (0,0)
 snake::snake() : length(2), pos_x(0), pos_y(0){
     // Add the current position of snake to the variable "body"
     snake::addPosToBody(pos_x, pos_y);
@@ -31,8 +31,8 @@ int snake::getLength(){
     return snake::length;
 }
 
-int main(){
-    snake mySnek;
-    cout << "Length of snek is: " << mySnek.getLength() << "\n"; 
-    return 0;
-}
+// int main(){
+//     snake mySnek;
+//     cout << "Length of snek is: " << mySnek.getLength() << "\n"; 
+//     return 0;
+// }

@@ -1,3 +1,6 @@
+#ifndef SNAKE_H
+#define SNAKE_H
+
 #include <vector>
 
 using namespace std;
@@ -17,3 +20,5 @@ class snake{
         vec_pair getBodyPos();
         void addPosToBody(int x, int y);
 };
+
+#endif
